@@ -4,7 +4,7 @@
 
 These models were trained on the dataset <url>https://www.kaggle.com/googleai/pfam-seed-random-split<url>.
 The task is: given the amino acid sequence of the protein domain, predict which class it belongs. In this case, a subset of the original dataset was utilized.
-<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
 
@@ -58,7 +58,7 @@ The first model that I will implement is based on the work of Jennifer M. Johnso
 
 
 ---
-
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 Given the success of pre-trained models in NLP, my second solution would be geared towards leveraging transfer learning. In particular, I will be using the model from Burkhard Rost *et al.* (2020) **IEEE Transactions on Pattern Analysis and Machine Intelligence** [ProtTrans: Towards Cracking the Language of Life’s Code Through Self-Supervised Learning](https://doi.org/10.1101/2020.07.12.199554). The model hosted on HuggingFace API [ProtBert](https://huggingface.co/Rostlab/prot_bert) was trained on a self-supervised task, namely MLM (Masked-Language Model). 
 
@@ -78,7 +78,7 @@ Given the success of pre-trained models in NLP, my second solution would be gear
 
 It is also important to note how the paper which produced the dataset by *Bileschi et al.* (2019) **BioArxiv** [Can Deep Learning Classify the Protein Universe](https://research.google/pubs/pub48390/#:~:text=Our%20model%20co%2Dlocates%20sequences,purpose%20protein%20function%20prediction%20tools.) is based on a 1-D CNN model as well. 
 
-
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Performance Evaluation
 
